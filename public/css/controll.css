@@ -1,0 +1,23 @@
+.home p{
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.home p a{
+    padding: 7px 12px;
+    background: orange;
+    position: relative;
+    color: blue;
+}
+.home p a:before{
+    content: "";
+    position: absolute;
+    top:-5px ;
+    right: -25px;
+    border-left: 30px solid #00c6ff;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+.home p span{
+    margin-left: 3%;
+}
